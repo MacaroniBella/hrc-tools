@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Member Leakage Calculator (demo) | HRC Tools</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap">
+  <style>
+    /* Stands in for a Webflow tool landing page: condensed hero, then the embed. */
+    body{margin:0;background:#FCFDFD;color:#1A2733;font-family:"Figtree",Arial,sans-serif;line-height:1.6}
+    .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+    .hero{padding:72px 0 48px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:14px}
+    .label{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:#5E8A22}
+    h1{font-family:"Fraunces",Georgia,serif;font-size:clamp(2rem,4.5vw,3.1rem);line-height:1.08;margin:0;max-width:20ch}
+    .lede{font-size:1.12rem;color:#526170;max-width:56ch;margin:0}
+    .tool-slot{padding-bottom:56px}
+    .back{text-align:center;padding:0 0 96px}
+    .back a{color:#17406E;font-weight:700}
+    /* Brand hooks the embed reads: change these on the Webflow page to restyle every tool. */
+    [data-hrc-tool]{--hrc-font-display:"Fraunces",Georgia,serif;--hrc-font-ui:"Figtree",Arial,sans-serif;--hrc-font-body:"Figtree",Arial,sans-serif}
+    .fallback{border:2px solid #0E2C4F;padding:32px;text-align:center}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <span class="label">Tools</span>
+      <h1>How many of your members are getting their mortgage somewhere else?</h1>
+      <p class="lede">Enter a few numbers about your credit union for an estimate of the mortgage relationships, and the members, you may be losing to other lenders.</p>
+    </section>
+
+    <section class="tool-slot">
+      <!-- ===== Copy from here: this is the snippet that goes in the Webflow component ===== -->
+      <div data-hrc-tool="member-leakage"
+           data-source="demo-page"
+           data-booking-url="#book-a-call">
+        <div class="fallback">
+          <p><strong>The Member Leakage Calculator didn't load.</strong></p>
+          <p>Our team can run the numbers with you directly.</p>
+          <p><a href="#contact">Talk with our team</a></p>
+        </div>
+      </div>
+      <script src="../hrc-tools.js" defer></script>
+      <!-- ===== to here ===== -->
+    </section>
+
+    <p class="back"><a href="../index.html">See all HRC tools</a></p>
+  </main>
+</body>
+</html>
