@@ -19,7 +19,8 @@ Running log of what's left before the tools go live on hrcuso.com. Updated as it
 
 ## Member Leakage Calculator
 
-- [ ] UI and wording pass (in progress)
+- [ ] UI and wording pass (in progress: 92% headline and first-time buyer pipeline done Oct 16)
+- [ ] Decide on a multi-product revenue line (needs a current, sourced revenue-per-member figure or CMS data)
 - [ ] Confirm the members-per-household default (currently 2.0, unsourced) or replace it with CMS / partner data
 - [ ] Booking link for the "Book a call" button (`data-booking-url`)
 - [ ] Compliance review of the tool copy and methodology note

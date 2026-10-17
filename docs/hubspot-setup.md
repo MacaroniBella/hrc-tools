@@ -25,9 +25,15 @@ Standard properties also used: `firstname`, `lastname`, `email`, `company`, `job
 | `hrc_ml_avg_loan_size` | Number (currency) |
 | `hrc_ml_members_per_household` | Number |
 | `hrc_ml_households_elsewhere` | Number |
-| `hrc_ml_share_served` | Number (percent, 0 to 100) |
+| `hrc_ml_share_elsewhere` | Number (percent, 0 to 100) |
 | `hrc_ml_volume_elsewhere` | Number (currency) |
 | `hrc_ml_renting_households` | Number |
+| `hrc_ml_future_buyers_low` | Number |
+| `hrc_ml_future_buyers_high` | Number |
+| `hrc_ml_future_with_you_low` | Number |
+| `hrc_ml_future_with_you_high` | Number |
+| `hrc_ml_future_volume_low` | Number (currency) |
+| `hrc_ml_future_volume_high` | Number (currency) |
 
 ## 2. Create one form per tool
 
@@ -44,7 +50,7 @@ Automation → Workflows → contact-based, enrolled by **Form submission: Tool 
 1. Set lifecycle stage to **Lead** and lead status to **New**.
 2. Rotate or assign the contact owner.
 3. Create the Lead record (Sales Hub) or a deal in your partnership pipeline.
-4. Send an internal email or Slack notification to the owner with: name, credit union, role, `hrc_wants_call`, `hrc_ml_households_elsewhere` and `hrc_ml_share_served`.
+4. Send an internal email or Slack notification to the owner with: name, credit union, role, `hrc_wants_call`, `hrc_ml_share_elsewhere` and `hrc_ml_households_elsewhere`.
 5. If `hrc_wants_call` is true, create a call task due today.
 6. Send the confirmation email to the contact with their numbers (personalize with the `hrc_ml_*` tokens) and the booking link.
 
