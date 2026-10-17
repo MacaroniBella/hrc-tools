@@ -2,6 +2,8 @@
 
 Running log of what's left before the tools go live on hrcuso.com. Updated as items close.
 
+**Links for the team:** live demo https://macaronibella.github.io/hrc-tools/demo/member-leakage.html · repo https://github.com/MacaroniBella/hrc-tools
+
 ## Hosting
 
 - [x] Repo public, GitHub Pages on from `main` (Oct 16, 2026). Live at https://macaronibella.github.io/hrc-tools/
@@ -27,7 +29,8 @@ Running log of what's left before the tools go live on hrcuso.com. Updated as it
 
 ## Webflow
 
-- [ ] Upgrade the HRC site to the CMS plan (custom code)
+- [ ] Upgrade the HRC site to the CMS plan (custom code), planned week of Oct 19
+- [ ] Embed the Member Leakage component on /member-leakage-calculator (replace the old static form)
 - [ ] One component per tool holding the embed snippet
 - [ ] Tool landing pages under `/tools/` (condensed hero + embed + link back to the Tools hub)
 - [ ] Replace the static calculator forms on How We Help and What We Handle with the component
