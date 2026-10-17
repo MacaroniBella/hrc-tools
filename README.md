@@ -5,8 +5,8 @@ Hosted code for the calculators and quizzes on hrcuso.com. Each tool lives in on
 | Tool | File | Status |
 |---|---|---|
 | Member Leakage Calculator | `tools/member-leakage.js` | Built |
-| Build vs. Partner Cost Comparison | `tools/build-vs-partner.js` | Next |
-| Mortgage Program Readiness Quiz | `tools/readiness-quiz.js` | Planned |
+| Build vs. Partner (in-house cost calculator) | `tools/build-vs-partner.js` | Built |
+| Mortgage Program Readiness Quiz | `tools/readiness-quiz.js` | Next |
 | Single-Product Risk Calculator | `tools/single-product-risk.js` | Planned |
 
 ## How it fits together

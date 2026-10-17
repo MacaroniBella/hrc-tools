@@ -16,7 +16,7 @@
 
   if (window.HRCTools && window.HRCTools.__loaded) return;
 
-  var VERSION = '0.1.0';
+  var VERSION = '0.1.1';
   var currentScript = document.currentScript;
   var BASE = (function () {
     var src = currentScript && currentScript.src ? currentScript.src : '';
@@ -37,7 +37,8 @@
     if (!isFinite(n)) return '$0';
     var abs = Math.abs(n);
     if (abs >= 1e9) return '$' + (n / 1e9).toFixed(1).replace(/\.0$/, '') + 'B';
-    if (abs >= 1e6) return '$' + (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (abs >= 1e7) return '$' + (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (abs >= 1e6) return '$' + (n / 1e6).toFixed(2).replace(/\.?0+$/, '') + 'M';
     return '$' + fmtNumber(n);
   }
 

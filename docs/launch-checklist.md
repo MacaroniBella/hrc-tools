@@ -37,7 +37,7 @@ Running log of what's left before the tools go live on hrcuso.com. Updated as it
 
 ## Next tools
 
-- [ ] Build vs. Partner Cost Comparison
+- [x] Build vs. Partner in-house cost calculator built (Oct 16); needs HubSpot form "Tool – Build vs Partner" and a booking link
 - [ ] Mortgage Program Readiness Quiz
 - [ ] Single-Product Risk Calculator
 - [ ] 95-5 Impact Estimator (hidden landing pages only; consumer-level numbers, no program mechanics in public code)

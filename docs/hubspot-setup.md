@@ -35,6 +35,22 @@ Standard properties also used: `firstname`, `lastname`, `email`, `company`, `job
 | `hrc_ml_future_volume_low` | Number (currency) |
 | `hrc_ml_future_volume_high` | Number (currency) |
 
+**Build vs. Partner (in-house cost calculator)**
+
+| Internal name | Type |
+|---|---|
+| `hrc_bvp_loans_per_year` | Number |
+| `hrc_bvp_service_in_house` | Single checkbox |
+| `hrc_bvp_total_cost` | Number (currency) |
+| `hrc_bvp_origination_cost` | Number (currency) |
+| `hrc_bvp_sales_cost` | Number (currency) |
+| `hrc_bvp_fulfillment_cost` | Number (currency) |
+| `hrc_bvp_technology_cost` | Number (currency) |
+| `hrc_bvp_support_cost` | Number (currency) |
+| `hrc_bvp_servicing_cost` | Number (currency) |
+
+Use a separate form for this tool, named `Tool – Build vs Partner`.
+
 ## 2. Create one form per tool
 
 Marketing → Forms → create a form named `Tool – Member Leakage`.
